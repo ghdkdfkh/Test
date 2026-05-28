@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\All git projects\Test_Project\Test project\Test project\bin\Debug\Test project.exe.config
+C:\Users\admin\Desktop\All git projects\Test_Project\Test project\Test project\bin\Debug\Test project.exe
+C:\Users\admin\Desktop\All git projects\Test_Project\Test project\Test project\bin\Debug\Test project.pdb
+C:\Users\admin\Desktop\All git projects\Test_Project\Test project\Test project\obj\Debug\Test project.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\All git projects\Test_Project\Test project\Test project\obj\Debug\Test project.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\All git projects\Test_Project\Test project\Test project\obj\Debug\Test project.exe
+C:\Users\admin\Desktop\All git projects\Test_Project\Test project\Test project\obj\Debug\Test project.pdb
