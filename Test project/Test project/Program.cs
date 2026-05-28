@@ -10,6 +10,13 @@ namespace Test_project
     {
         static void Main(string[] args)
         {
+            string input;
+
+            Console.WriteLine("Введите ваше имя");
+            input = Console.ReadLine();
+
+            Console.WriteLine($"Ваше имя {input}");
+            Console.ReadKey();
         }
     }
 }
