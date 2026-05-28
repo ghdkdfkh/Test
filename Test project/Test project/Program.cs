@@ -19,17 +19,27 @@ namespace Test_project
         private static void UserAuthorise()
         {
             const string Password = "hu";
-            int tryiescount = 3;
-            string passwordInput = null;
             string userName;
 
             userName = EnterUserName();
-
-            PasswordInput(Password, ref tryiescount, ref passwordInput, userName);
+            PasswordInput(Password, userName);
         }
 
-        private static void PasswordInput(string Password, ref int tryiescount, ref string passwordInput, string userName)
+        private static string EnterUserName()
         {
+            string input;
+            Console.WriteLine("Введите ваше имя");
+            input = Console.ReadLine();
+
+            Console.WriteLine($"\nВаше имя {input}");
+            return input;
+        }
+
+        private static void PasswordInput(string Password, string userName)
+        {
+            int tryiescount = 3;
+            string passwordInput = null;
+
             while (passwordInput != Password && tryiescount > 0)
             {
                 tryiescount--;
@@ -40,22 +50,12 @@ namespace Test_project
             }
         }
 
-        private static string EnterUserName()
-        {
-            string input;
-            Console.WriteLine("Введите ваше имя");
-            input = Console.ReadLine(); 
-
-            Console.WriteLine($"\nВаше имя {input}");
-            return input;
-        }
-
         private static void ShowAuthMessage(string Password, string passwordInput, string input, object tryiescount)
         {
             if (passwordInput == Password)
                 Console.WriteLine("Password.OK");
             else
-                Console.WriteLine($">>> {input}, Password.IS_NOT_OK !!!! осталось {tryiescount} попыток <<<");
+                Console.WriteLine($">>> Пользователь {input}, Password.IS_NOT_OK !!!! осталось {tryiescount} попыток <<<");
         }
     }
 }
