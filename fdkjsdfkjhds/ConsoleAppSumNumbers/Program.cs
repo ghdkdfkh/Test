@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleAppSumNumbers
 {
@@ -14,45 +10,51 @@ namespace ConsoleAppSumNumbers
     {
         static void Main(string[] args)
         {
-            int tgt_1 = 3;
-            int tgt_2 = 5;
-
-            int sumNumbersResult_1;
-            int sumNumbersResult_2 = 0;
-
+            int tgt_3 = 3;
+            int tgt_5 = 5;
 
             Random rand = new Random();
             int randomNumber = rand.Next(1, 25);
             Console.WriteLine($"randomNumber = {randomNumber}\n");
 
-            sumNumbersResult_1 = SumMultiplesNums(tgt_1, randomNumber, ConsoleColor.Yellow);
+            #region Простой способ решения
+            //sumNumbersResult_1 = SumMultiplesNums(tgt_1, randomNumber, ConsoleColor.Yellow);
+            //Console.WriteLine();
+            //sumNumbersResult_2 = SumMultiplesNums(tgt_2, randomNumber, ConsoleColor.Cyan);
+            #endregion
+
+            #region Другой способ решения
+            var sumNumbersResult_1 = AlterSumMultiplesNums(randomNumber, tgt_3, ConsoleColor.Yellow);
             Console.WriteLine();
-            sumNumbersResult_2 = SumMultiplesNums(tgt_2, randomNumber, ConsoleColor.Cyan);
+            var sumNumbersResult_2 = AlterSumMultiplesNums(randomNumber, tgt_5, ConsoleColor.Cyan);
 
-            Console.WriteLine($"\nСумма чисел кратных {tgt_1} = {sumNumbersResult_1}");
-            Console.WriteLine($"Сумма чисел кратных {tgt_2} = {sumNumbersResult_2}");
+            Console.WriteLine("\n==================");
+            Console.WriteLine($"\nСумма чисел кратных {tgt_3} = {sumNumbersResult_1}");
+            Console.WriteLine($"Сумма чисел кратных {tgt_5} = {sumNumbersResult_2}");
+            #endregion
 
-            //for (int i = 0; i < randomNumber; i++)
-            //{
-            //    Console.WriteLine($"i = {i}");
-            //    var currentNum = i + 1;
-            //    Console.WriteLine($"currentNum = {currentNum}");
-            //    Console.WriteLine();
-
-            //    if (true)
-            //    {
-
-            //    }
-            //}
-            //while (randomNumber>0)
-            //{
-            //    if (true)
-            //    {
-
-            //    }
-
-            //}
             Console.ReadKey();
+        }
+
+        private static int AlterSumMultiplesNums(int randomNumber, int tgt, ConsoleColor color)
+        {
+            int sumNumbers = 0;
+
+            for (int i = 0; i < randomNumber; i++)
+            {
+                var currentNum = i + 1;
+
+                if (currentNum % tgt == 0)
+                {
+                    sumNumbers = sumNumbers + currentNum;// sumNumbersResult_1 += tgt_1;
+
+                    Console.ForegroundColor = color;
+                    Console.WriteLine($"{currentNum}%{tgt} -> остаток от деления {currentNum % tgt}, общ.сумма = {sumNumbers}");
+                    Console.ResetColor();
+                }
+            }
+
+            return sumNumbers;
         }
 
         private static int SumMultiplesNums(int tgt, int randomNumber, ConsoleColor color)
