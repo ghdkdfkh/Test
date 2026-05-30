@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fdkjsdfkjhds", "fdkjsdfkjhd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppSumNumbers", "ConsoleAppSumNumbers\ConsoleAppSumNumbers.csproj", "{5A927911-6957-401A-806A-9437AAC147FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppBossFight", "ConsoleAppBossFight\ConsoleAppBossFight.csproj", "{49474D9A-CBDC-4C02-B3D8-C099744B5D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppPassword", "ConsoleAppPassword\ConsoleAppPassword.csproj", "{9D3DC564-EDD2-4A63-8589-13979E49F94A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5A927911-6957-401A-806A-9437AAC147FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A927911-6957-401A-806A-9437AAC147FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A927911-6957-401A-806A-9437AAC147FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49474D9A-CBDC-4C02-B3D8-C099744B5D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49474D9A-CBDC-4C02-B3D8-C099744B5D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49474D9A-CBDC-4C02-B3D8-C099744B5D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49474D9A-CBDC-4C02-B3D8-C099744B5D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3DC564-EDD2-4A63-8589-13979E49F94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3DC564-EDD2-4A63-8589-13979E49F94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3DC564-EDD2-4A63-8589-13979E49F94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3DC564-EDD2-4A63-8589-13979E49F94A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
