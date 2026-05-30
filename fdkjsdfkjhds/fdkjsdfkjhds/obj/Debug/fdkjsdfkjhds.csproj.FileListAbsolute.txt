@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\fdkjsdfkjhds\bin\Debug\fdkjsdfkjhds.exe.config
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\fdkjsdfkjhds\bin\Debug\fdkjsdfkjhds.exe
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\fdkjsdfkjhds\bin\Debug\fdkjsdfkjhds.pdb
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\fdkjsdfkjhds\obj\Debug\fdkjsdfkjhds.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\fdkjsdfkjhds\obj\Debug\fdkjsdfkjhds.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\fdkjsdfkjhds\obj\Debug\fdkjsdfkjhds.exe
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\fdkjsdfkjhds\obj\Debug\fdkjsdfkjhds.pdb

@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\ConsoleAppSumNumbers\bin\Debug\ConsoleAppSumNumbers.exe.config
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\ConsoleAppSumNumbers\bin\Debug\ConsoleAppSumNumbers.exe
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\ConsoleAppSumNumbers\bin\Debug\ConsoleAppSumNumbers.pdb
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\ConsoleAppSumNumbers\obj\Debug\ConsoleAppSumNumbers.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\ConsoleAppSumNumbers\obj\Debug\ConsoleAppSumNumbers.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\ConsoleAppSumNumbers\obj\Debug\ConsoleAppSumNumbers.exe
+C:\Users\admin\Desktop\All git projects\Test_Project\fdkjsdfkjhds\ConsoleAppSumNumbers\obj\Debug\ConsoleAppSumNumbers.pdb
